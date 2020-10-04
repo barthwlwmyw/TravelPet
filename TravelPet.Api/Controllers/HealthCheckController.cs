@@ -10,7 +10,7 @@ namespace gp_approximation_api.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok($"TravelPet 🐕 API is up and running ({DateTime.UtcNow.ToString()})");
+            return Ok($"TravelPet 🐕 API is up and running ({DateTime.UtcNow.ToString()}) - CI test");
         }
     }
 }
